@@ -382,7 +382,7 @@ li{
 .header .hero-img{
   position: absolute;
   bottom: -10%;
-  right: -5%;
+  right: 5%;
   height: 70rem;
 }
 
@@ -438,10 +438,6 @@ li{
 
 @media only screen and (max-width: 1200px){
 
-  .header .hero-img{
-    right: -15%;
-  }
-
   .header .hero-content{
     transform: translate(20%, -40%);
   }
@@ -459,7 +455,6 @@ li{
 
   .header .hero-img{
     height: 50rem;
-    right: -30%;
   }
 
   .header .hero-content{
@@ -476,7 +471,6 @@ li{
 
   .header .hero-img{
     height: 55rem;
-    right: 0%;
     bottom: -25%;
   }
 
